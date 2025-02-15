@@ -15,13 +15,17 @@ This script automates the process of checking for updates to Docker images in us
 
 ## Prerequisites
 
-- `zsh` shell installed.
+- `zsh` shell installed. (Please modify as needed)
 - Docker and Docker Compose installed.
 - Sufficient permissions to execute Docker commands.
 
 ## Usage
 
-1. Save the script as `update_docker.sh`.
+1. Save the script as `update_docker.sh`. OR excute directly from git:
+    ```sh
+    zsh -c "$(curl -fsSL https://raw.githubusercontent.com/oddmmar/docker_image_updater/refs/heads/main/image_update.sh)"
+    zsh -c "$(wget https://raw.githubusercontent.com/oddmmar/docker_image_updater/refs/heads/main/image_update.sh)"
+    ```
 2. Grant execution permissions:
    ```sh
    chmod +x update_docker.sh
