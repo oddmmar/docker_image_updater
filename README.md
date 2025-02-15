@@ -21,7 +21,7 @@ This script automates the process of checking for updates to Docker images in us
 
 ## Usage
 
-1. Save the script as `update_docker.sh`. OR excute directly from git:
+1. Save the script as `update_docker.sh` to your working `dir`. OR excute directly from git:
     ```sh
     zsh -c "$(curl -fsSL https://raw.githubusercontent.com/oddmmar/docker_image_updater/refs/heads/main/image_update.sh)"
     zsh -c "$(wget https://raw.githubusercontent.com/oddmmar/docker_image_updater/refs/heads/main/image_update.sh)"
